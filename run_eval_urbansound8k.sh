@@ -12,6 +12,6 @@ for i in {1..10};do
     TRAIN.ENABLE False \
     TEST.ENABLE True \
     MODEL.MERGE_MODE True \
-    TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/auditory-slow-fast/checkpoints_urban_sound/fold_$i/FAST_R50_MS_K21_K11_K3_SE_DW_Mod1_Reduce_Resolution_All_Parallel_3_exp4/checkpoints/checkpoint_epoch_00030.pyth
-
+    TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/AudioRepInceptionNeXt/checkpoints_urban_sound/fold_$i/AudioRepInceptionNeXt/checkpoints/checkpoint_epoch_00030.pyth
+    
 done

@@ -9,5 +9,4 @@ TRAIN.ENABLE False \
 TEST.ENABLE True \
 MODEL.MERGE_MODE True \
 MODEL.OUTPUT_DIR /data1/steven/audio/AudioRepInceptionNeXt/inference_model_epic_sound/inference/AudioRepInceptionNeXt/best \
-TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/auditory-slow-fast/checkpoints_epic_sound_416x128/FAST_R50_MS_K21_K11_K3_SE_DW_Mod1_Reduce_Resolution_All_Parallel_3_exp4/checkpoints/checkpoint_epoch_00030.pyth
-# TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/AudioRepInceptionNeXt/checkpoints_epic_sounds/AudioRepInceptionNeXt/checkpoints/checkpoint_epoch_00030.pyth
+TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/AudioRepInceptionNeXt/checkpoints_epic_sound_416x128/AudioRepInceptionNeXt/checkpoints/checkpoint_epoch_00030.pyth

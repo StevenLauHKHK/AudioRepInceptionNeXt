@@ -9,4 +9,4 @@ SPEECHCOMMANDV2.ANNOTATIONS_DIR  /data1/steven/audio/AudioRepInceptionNeXt \
 TRAIN.ENABLE False \
 TEST.ENABLE True \
 MODEL.MERGE_MODE True \
-TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/auditory-slow-fast/checkpoints_speech_cmd/FAST_R50_MS_K21_K11_K3_SE_DW_Mod1_Reduce_Resolution_All_Parallel_3_exp6/checkpoints/checkpoint_epoch_00030.pyth
+TEST.CHECKPOINT_FILE_PATH /data1/steven/audio/AudioRepInceptionNeXt/checkpoints_speech_cmd/AudioRepInceptionNeXt/checkpoints/checkpoint_epoch_00030.pyth
