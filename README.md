@@ -29,10 +29,10 @@ When using this code, kindly reference:
 You can download our pretrained models as follow:
 - AudioRepInceptionNeXt (VGG-Sound) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/EiYfDsGXvLRNsGJEJ8EuNIIBm3BaWXQsmFAmRP7ZEucbuw?e=YUbTEM)
 - AudioRepInceptionNeXt (EPIC-Sound) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Evws-ER1bFRHnrfADk0awVgBBKskaFgokCAK52cuzJNbwQ?e=Pvufdm)
-- AudioRepInceptionNeXt (EPIC-Kitchens-100) [link] (https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/El4P4d8wSYhOibuNdauOdY0BY6tbsMJjEmxxZZ4EvuxZ9A?e=v7F0TZ)
-- AudioRepInceptionNeXt (Speech Commands V2) [link] (https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Eg6t5eGNPtdIrCGQo-o1xdABiJ-HJHd6Yx9yUhvQIEkw1Q?e=I8OVwd)
-- AudioRepInceptionNeXt (Urban Sound 8K) [link] (https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/EpeRXtGnVoxAigfyrMSBN6ABCT0y1l5bsNQTmFaJVoZXtA?e=A7gPYt)
-- AudioRepInceptionNeXt (NSynth) [link] (https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Er4eZSf52DhOqcUYSWgd4sIBDEdAdLJxPz0g7gUwPpAwAw?e=v8Xo6e)
+- AudioRepInceptionNeXt (EPIC-Kitchens-100) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/El4P4d8wSYhOibuNdauOdY0BY6tbsMJjEmxxZZ4EvuxZ9A?e=v7F0TZ)
+- AudioRepInceptionNeXt (Speech Commands V2) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Eg6t5eGNPtdIrCGQo-o1xdABiJ-HJHd6Yx9yUhvQIEkw1Q?e=I8OVwd)
+- AudioRepInceptionNeXt (Urban Sound 8K) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/EpeRXtGnVoxAigfyrMSBN6ABCT0y1l5bsNQTmFaJVoZXtA?e=A7gPYt)
+- AudioRepInceptionNeXt (NSynth) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Er4eZSf52DhOqcUYSWgd4sIBDEdAdLJxPz0g7gUwPpAwAw?e=v8Xo6e)
 
 
 
@@ -60,22 +60,22 @@ export PYTHONPATH=/path/to/AudioRepInceptionNeXt:$PYTHONPATH
 
 ## Training/validation data
 * VGG-Sound:
-  URL of the dataset [link] (https://www.robots.ox.ac.uk/~vgg/data/vggsound/)
+  URL of the dataset [link](https://www.robots.ox.ac.uk/~vgg/data/vggsound/)
 
 * EPIC-KITCHENS:
-  URL of the dataset [link] (https://epic-kitchens.github.io/2024)
+  URL of the dataset [link](https://epic-kitchens.github.io/2024)
 
 * EPIC-Sounds:
-  URL of the dataset [link] (https://epic-kitchens.github.io/epic-sounds/)
+  URL of the dataset [link](https://epic-kitchens.github.io/epic-sounds/)
 
 * Speech Commands V2:
-  URL of the dataset [link] (http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz)
+  URL of the dataset [link](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz)
 
 * Urban Sound 8K:
-  URL of the dataset [link] (https://urbansounddataset.weebly.com/urbansound8k.html)
+  URL of the dataset [link](https://urbansounddataset.weebly.com/urbansound8k.html)
 
 * NSynth:
-  URL of the dataset [link] (https://magenta.tensorflow.org/datasets/nsynth#files)
+  URL of the dataset [link](https://magenta.tensorflow.org/datasets/nsynth#files)
 
 
 ## Training/validation on VGG-Sound
