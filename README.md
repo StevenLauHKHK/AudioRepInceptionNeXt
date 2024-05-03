@@ -4,7 +4,7 @@ This repository implements the model proposed in the paper:
 
 Kin Wai Lau, Yasar Abbas Ur Rehman, Lai-Man Po, **AudioRepInceptionNeXt: A lightweight single-stream architecture for efficient audio recognition**
 
-[[arXiv paper]](Coming Soon)
+[[arXiv paper]](https://arxiv.org/abs/2404.13551)
 
 The implementation code is based on the **Slow-Fast Auditory Streams for Audio Recognition**, ICASSP, 2021. For more information, please refer to the [link](https://github.com/ekazakos/auditory-slow-fast).
 
