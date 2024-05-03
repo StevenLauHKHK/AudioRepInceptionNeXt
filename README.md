@@ -79,7 +79,7 @@ export PYTHONPATH=/path/to/AudioRepInceptionNeXt:$PYTHONPATH
 
 
 ## Training/validation on VGG-Sound
-To train the model run (see run_train_vgg_sound.sh as an example):
+To train the model run (see run_train.sh as an example):
 ```
 python tools/run_net.py --cfg configs/VGG-Sound/AudioRepInceptionNeXt.yaml --init_method tcp://localhost:9996 \
 NUM_GPUS num_gpus \
@@ -88,7 +88,7 @@ VGGSOUND.AUDIO_DATA_DIR /path/to/dataset
 VGGSOUND.ANNOTATIONS_DIR /path/to/annotations 
 ```
 
-To validate the trained model run (see run_eval_vgg_sound.sh as an example):
+To validate the trained model run (see run_eval.sh as an example):
 ```
 python tools/run_net.py --cfg configs/VGG-Sound/AudioRepInceptionNeXt.yaml --init_method tcp://localhost:9998 \
 NUM_GPUS num_gpus \
@@ -100,7 +100,7 @@ TEST.ENABLE True \
 TEST.CHECKPOINT_FILE_PATH /path/to/experiment_dir/checkpoints/checkpoint_best.pyth
 ```
 
-To export the reparametrized AudioRepInceptionNeXt run (see run_eval_vgg_sound.sh as an example):
+To export the reparametrized AudioRepInceptionNeXt run (see run_eval.sh as an example):
 ```
 python tools/run_net.py --cfg configs/VGG-Sound/AudioRepInceptionNeXt.yaml --init_method tcp://localhost:9998 \
 NUM_GPUS num_gpus \
@@ -114,7 +114,7 @@ MODEL.OUTPUT_DIR /path/to/new_model_saving_dir \
 TEST.CHECKPOINT_FILE_PATH /path/to/experiment_dir/checkpoints/checkpoint_best.pyth
 ```
 
-To run the reparametrized AudioRepInceptionNeXt in inference mode run (see run_eval_inference_vgg_sound.sh as an example):
+To run the reparametrized AudioRepInceptionNeXt in inference mode run (see run_eval_inference.sh as an example):
 ```
 python tools/run_net.py --cfg configs/VGG-Sound/AudioRepInceptionNeXt_Inference.yaml --init_method tcp://localhost:9998 \
 NUM_GPUS num_gpus \
@@ -127,7 +127,7 @@ TEST.CHECKPOINT_FILE_PATH /path/to/new_model_saving_dir/checkpoints/checkpoint_b
 ```
 
 ## Fine Tune/validation on EPIC-Sounds
-To fine-tuning from VGG-Sound pretrained model (see run_train_epic_sound.sh as an example):
+To fine-tuning from VGG-Sound pretrained model (see run_train.sh as an example):
 ```
 python tools/run_net.py --cfg configs/EPIC-SOUND-416x128/AudioRepInceptionNeXt.yaml --init_method tcp://localhost:9996 \
 NUM_GPUS num_gpus \
@@ -137,7 +137,7 @@ EPICSOUND.ANNOTATIONS_DIR /path/to/annotations \
 TRAIN.CHECKPOINT_FILE_PATH /path/to/VGG-Sound/pretrained/model
 ```
 
-To validate the model run (see run_eval_epic_sound.sh as an example)::
+To validate the model run (see run_eval.sh as an example)::
 ```
 python tools/run_net.py --cfg configs/EPIC-SOUND-416x128/AudioRepInceptionNeXt.yaml --init_method tcp://localhost:9997 \
 NUM_GPUS num_gpus \

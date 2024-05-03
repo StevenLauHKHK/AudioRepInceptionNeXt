@@ -377,11 +377,11 @@ _C.VGGSOUND.AUDIO_DATA_DIR = ""
 
 _C.VGGSOUND.ANNOTATIONS_DIR = ""
 
-_C.VGGSOUND.TRAIN_LIST = "train.pkl"
+_C.VGGSOUND.TRAIN_LIST = "VGG_Sound_train.pkl"
 
-_C.VGGSOUND.VAL_LIST = "test.pkl"
+_C.VGGSOUND.VAL_LIST = "VGG_Sound_test.pkl"
 
-_C.VGGSOUND.TEST_LIST = "test.pkl"
+_C.VGGSOUND.TEST_LIST = "VGG_Sound_test.pkl"
 
 # -----------------------------------------------------------------------------
 # SPEECH COMMAND V2 Dataset options
