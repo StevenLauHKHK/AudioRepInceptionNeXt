@@ -34,6 +34,10 @@ You can download our pretrained models as follow:
 - AudioRepInceptionNeXt (Urban Sound 8K) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/EpeRXtGnVoxAigfyrMSBN6ABCT0y1l5bsNQTmFaJVoZXtA?e=A7gPYt)
 - AudioRepInceptionNeXt (NSynth) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/Er4eZSf52DhOqcUYSWgd4sIBDEdAdLJxPz0g7gUwPpAwAw?e=v8Xo6e)
 
+## Pretrained ONNX models
+
+You can download our pretrained onnx models for mobile development as follow:
+- AudioRepInceptionNeXt (VGG-Sound) [link](https://portland-my.sharepoint.com/:f:/g/personal/kinwailau6-c_my_cityu_edu_hk/EtNQOSVcAjpLmnBkdnaWagcB81zcLNOTCMLbrKEwCZDDEA?e=sCW3Wt)
 
 
 ## Preparation
